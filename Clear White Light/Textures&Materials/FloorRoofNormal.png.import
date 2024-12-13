@@ -2,8 +2,8 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://d0c3m4qkik7rg"
-path.s3tc="res://.godot/imported/GreyBrickNormal.png-28953228b9f9960bda9e12a4fcda20fa.s3tc.ctex"
+uid="uid://02sa33m25n2g"
+path.s3tc="res://.godot/imported/FloorRoofNormal.png-f19f34520c8e070ca706ebd0910e421b.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://Textures/GreyBrickNormal.png"
-dest_files=["res://.godot/imported/GreyBrickNormal.png-28953228b9f9960bda9e12a4fcda20fa.s3tc.ctex"]
+source_file="res://Textures&Materials/FloorRoofNormal.png"
+dest_files=["res://.godot/imported/FloorRoofNormal.png-f19f34520c8e070ca706ebd0910e421b.s3tc.ctex"]
 
 [params]
 
@@ -25,7 +25,7 @@ compress/channel_pack=0
 mipmaps/generate=true
 mipmaps/limit=-1
 roughness/mode=1
-roughness/src_normal="res://Textures/GreyBrickNormal.png"
+roughness/src_normal="res://Textures&Materials/FloorRoofNormal.png"
 process/fix_alpha_border=true
 process/premult_alpha=false
 process/normal_map_invert_y=false

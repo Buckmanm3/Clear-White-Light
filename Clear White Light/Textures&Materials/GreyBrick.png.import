@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://j0puo7t0djsp"
-path.s3tc="res://.godot/imported/GreyBrick.png-af99aac1b2f6f68ebd0dec2b934a92b8.s3tc.ctex"
+path.s3tc="res://.godot/imported/GreyBrick.png-56ced38c9329dd8e035f06ee52a82fdb.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://Textures/GreyBrick.png"
-dest_files=["res://.godot/imported/GreyBrick.png-af99aac1b2f6f68ebd0dec2b934a92b8.s3tc.ctex"]
+source_file="res://Textures&Materials/GreyBrick.png"
+dest_files=["res://.godot/imported/GreyBrick.png-56ced38c9329dd8e035f06ee52a82fdb.s3tc.ctex"]
 
 [params]
 
