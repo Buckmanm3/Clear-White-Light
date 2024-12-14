@@ -7,7 +7,9 @@ extends Node3D
 @onready var left: MeshInstance3D = $Left
 @onready var right: MeshInstance3D = $Right
 
+
 func updateFaces(cells:Array[Vector2i]):
+	@warning_ignore("narrowing_conversion")
 	var gridpos = Vector2i(position.x, position.z)
 	if cells.has(gridpos + Vector2i.LEFT):
 		left.queue_free()
