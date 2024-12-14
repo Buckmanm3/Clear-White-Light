@@ -1,12 +1,17 @@
 @tool
 extends Node3D
 
+const CellScene = preload("res://Scenes/Cell.tscn")
+var cells:Array = []
+@onready var map: TileMap = $Map
 
-# Called when the node enters the scene tree for the first time.
 func _ready():
-	pass # Replace with function body.
-
-
-# Called every frame. 'delta' is the elapsed time since the previous frame.
-func _process(delta):
-	pass
+	var tiles: Array[Vector2i] = map.get_used_cells(0)
+	for tile:Vector2i in tiles:
+		var cell = CellScene.instantiate()
+		add_child(cell)
+		cell.transform.origin = Vector3(tile.x, 0, tile.y)
+		cells.append(cell)
+	for cell in cells:
+		cell.updateFaces(tiles)
+		print(cells)
