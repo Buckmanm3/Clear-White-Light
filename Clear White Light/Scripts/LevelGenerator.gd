@@ -9,7 +9,6 @@ func _ready():
 	if CellScenes.size() == 0: return
 	var tiles: Array[Vector2i] = map.get_used_cells(0)
 	for tile:Vector2i in tiles:
-		print(map.get_cell_atlas_coords(0, tile))
 		var cell = CellScenes[map.get_cell_atlas_coords(0,tile).x].instantiate()
 		add_child(cell)
 		cell.transform.origin = Vector3(tile.x, 0, tile.y)
